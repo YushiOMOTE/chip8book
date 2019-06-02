@@ -11,6 +11,12 @@ Bare-metal chip8 for macbook based on [libchip8](https://github.com/YushiOMOTE/l
 
 ### Try
 
+* Get [uefi-rs](https://github.com/rust-osdev/uefi-rs/)
+
+    ```
+    $ git submodule update --init
+    ```
+
 * To build
 
     ```
