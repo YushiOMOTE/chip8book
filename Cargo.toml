@@ -13,4 +13,4 @@ uefi-exts = { path = "uefi-rs/uefi-exts" }
 
 log = { version = "0.4", default-features = false }
 rand = { version = "0.6", default-features = false }
-libchip8 = { path = "../libchip8" }
+libchip8 = { git = "https://github.com/YushiOMOTE/libchip8.git" }

@@ -24,7 +24,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "chip8book"
 version = "0.1.0"
 dependencies = [
- "libchip8 0.1.0",
+ "libchip8 0.1.0 (git+https://github.com/YushiOMOTE/libchip8.git)",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "uefi 0.1.0",
@@ -40,6 +40,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "libchip8"
 version = "0.1.0"
+source = "git+https://github.com/YushiOMOTE/libchip8.git#1f7b196c371dab1049e703d989ecbf78bfcd4ffe"
 dependencies = [
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -280,6 +281,7 @@ dependencies = [
 "checksum bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "228047a76f468627ca71776ecdebd732a3423081fcf5125585bcd7c49886ce12"
 "checksum cfg-if 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)" = "b486ce3ccf7ffd79fdeb678eac06a9e6c09fc88d33836340becb8fffe87c5e33"
 "checksum libc 0.2.55 (registry+https://github.com/rust-lang/crates.io-index)" = "42914d39aad277d9e176efbdad68acb1d5443ab65afe0e0e4f0d49352a950880"
+"checksum libchip8 0.1.0 (git+https://github.com/YushiOMOTE/libchip8.git)" = "<none>"
 "checksum log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)" = "c84ec4b527950aa83a329754b01dbe3f58361d1c5efacd1f6d68c494d08a17c6"
 "checksum os_bootinfo 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "66481dbeb5e773e7bd85b63cd6042c30786f834338288c5ec4f3742673db360a"
 "checksum proc-macro2 0.4.30 (registry+https://github.com/rust-lang/crates.io-index)" = "cf3d2011ab5c909338f7887f4fc896d35932e29146c12c8d01da6b22a80ba759"
