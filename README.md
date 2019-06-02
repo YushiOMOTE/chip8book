@@ -3,6 +3,8 @@ chip8book
 
 Bare-metal chip8 for macbook based on [libchip8](https://github.com/YushiOMOTE/libchip8).
 
+![](https://raw.github.com/wiki/YushiOMOTE/chip8book/ch8.jpg)
+
 ### Prerequisites
 
 * [QEMU](https://www.qemu.org/)
